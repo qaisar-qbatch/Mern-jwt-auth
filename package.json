@@ -4,8 +4,18 @@
   "description": "MERN Stack App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": " nodemon mynode/index.js",
+    "start": " npm start --prefix myreact",
+    "concurrently": " concurrently \"npm run server \" \"npm run start\" "
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongod": "^2.0.0",
+    "nodemon": "^2.0.19"
+  }
 }
