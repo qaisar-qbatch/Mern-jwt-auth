@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = /Users/apple/Desktop/Self-Learning
+[submodule "client"]
+	path = client
+	url = /Users/apple/Desktop/Self-Learning

@@ -4,8 +4,8 @@
   "description": "MERN Stack App",
   "main": "index.js",
   "scripts": {
-    "server": " nodemon mynode/index.js",
-    "start": " npm start --prefix myreact",
+    "server": " nodemon server/index.js",
+    "start": " npm start --prefix client",
     "concurrently": " concurrently \"npm run server \" \"npm run start\" "
   },
   "author": "",
